@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -16,7 +16,7 @@
     "appId": "com.github.iffy.electronupdaterexample",
     "publish": [{
       "provider": "github",
-      "owner": "ste2425",
+      "owner": "ste242",
       "repo": "electron-updater-example"
     }],
     "nsis": {
