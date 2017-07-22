@@ -14,13 +14,11 @@
   },
   "build": {
     "appId": "com.github.iffy.electronupdaterexample",
-    "mac": {
-      "category": "your.app.category.type",
-      "target": [
-        "zip",
-        "dmg"
-      ]
-    },
+    "publish": [{
+      "provider": "github",
+      "owner": "ste2425",
+      "repo": "electron-updater-example"
+    }],
     "nsis": {
       "perMachine": true
     }
